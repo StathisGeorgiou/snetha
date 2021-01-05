@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en">
+
 <head>
 	<title>SNEHTA_WB1</title>
 	<meta charset="utf-8">
@@ -12,22 +13,31 @@
 
 	<link href="SNEHTA_WB1-HTML5-Shipping.css" rel="stylesheet">
 
+	<script>
+		function myFunction() {
+			console.log("Hello world!");
+
+			// Get width and height of the window excluding scrollbars
+			var w = document.documentElement.clientWidth;
+			var h = document.documentElement.clientHeight;
+			
+			document.getElementById("mainarea").style.height = h + "px";
+
+		}
+	</script>
+
 </head>
-<body>
 
 <div class="my_fullscreen_div" id="mainarea">
 	<div class="alert alert-warning centered-axis-xy" style="min-height: 20px; display:none;" role="alert" id="compilingmessage">
 		<div id='loadTasks'> </div>
 	</div>
-	<!-- The "tabindex=0" specifier on the canvas is important to allow it to capture keyboard focus when clicking on it with a mouse -->
-    <canvas tabindex=0 id="canvas" class="emscripten" oncontextmenu="event.preventDefault()" style="display:none;">
-        <button id="fullscreen_request"></button>
-</div>
 
-<!--<div class="container2"> 
+	<!--<div class="container2"> 
 	<button class="feedback" id="fullscreen_request">FullScreen</button>
 </div>-->
 
-<script src="SNEHTA_WB1-HTML5-Shipping.UE4.js"></script>
+	<script src="SNEHTA_WB1-HTML5-Shipping.UE4.js"></script>
 </body>
+
 </html>
