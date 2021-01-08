@@ -173,6 +173,6 @@ Module['FS_createPath']('/SNEHTA_WB1/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 93, "filename": "/UE4CommandLine.txt"}, {"start": 93, "audio": 0, "end": 52069568, "filename": "/SNEHTA_WB1/Content/Paks/SNEHTA_WB1-HTML5.pak"}], "remote_package_size": 52069568, "package_uuid": "22699529-3c58-4902-b29b-14eb99118a41"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 93, "filename": "/UE4CommandLine.txt"}, {"start": 93, "audio": 0, "end": 52321417, "filename": "/SNEHTA_WB1/Content/Paks/SNEHTA_WB1-HTML5.pak"}], "remote_package_size": 52321417, "package_uuid": "3c64dee2-231c-43fc-b37c-bd6122323490"});
 
 })();
